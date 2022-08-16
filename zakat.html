@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleshet.css">
+    <title>Document</title>
+</head>
+<body class="centre">
+    <div class="color">
+    <h1 class="h1">Question NO1</h1>
+    <h2 class="h1">Zakat</h2>
+    Name of Person:</Name><br><input type="text" id="zakat">
+    <br>
+    Total Amount:<br> <input type="number" id="totalAmount">
+    <br>
+
+    <button onclick="let zakat=document.getElementById('zakat').value;
+    document.getElementById('heading').innerText=zakat;
+    ">Name</button>
+       <button onclick="let amount=document.getElementById('totalAmount').value;
+       let zakatAmount=amount/40;
+       document.getElementById('heading1').innerText=zakatAmount;
+       ">Calculate Zakat</button><br>
+
+    <h2 id="heading"></h2>
+    <h1 id="heading1"></h1>
+</div>
+<div class="color">
+    <h1>Question NO:2</h1>
+    <h2>shares of miras</h2>
+    Total Amount: <br>
+    <input type="number" id="share"><br><br>
+    <button onclick="let totalAmount=document.getElementById('share').value;
+    let wifeShare=totalAmount/8;
+    let sonShare=totalAmount-wifeShare;
+    let ful='Total amount is '+ totalAmount +' , the share of wife is '+ wifeShare+' and the share of son is '+sonShare;
+    document.getElementById('heading3').innerText=ful;
+    ">Calculate Share</button>
+    <p id="heading3"></p>
+</div>
+<div class="color">
+    <h1>Question NO3:</h1>
+<h2>Profit</h2>
+Total Profit: <br>
+<input type="number" id="profit"><br>
+<button onclick="let totalProfit=getElementById('profit').value;
+let aliShare=35/100;
+let umarShare=65/100;
+let aliProfit=totalProfit*aliShare;
+let umarProfit=totalProfit*umarShare;
+let fu='The Total Profit is '+totalProfit+' ,the Profit of ali is '+aliProfit+' and the umar Profit is '+umarProfit;
+document.getElementById('heading4').innerText=fu;
+">Calculate Profit</button>
+<p id="heading4"></p>
+</div>
+<div class="color">
+<h1>Question NO4:</h1>
+<h2>"salah" of "Qaza"</h2>
+age: <br>
+<input type="number" id="salah"><br>
+<button onclick="let age=getElementById('salah').value;
+ 
+let qazaSalahYear=age-12;
+let totalDay=365*qazaSalahYear;
+let totalSalah=totalDay*6;
+let result='The total Salah Qaza is '+totalSalah;
+document.getElementById('heading5').innerText=result;
+">Salah</button>
+<p id="heading5"></p>
+</div>
+</body>
+</html>

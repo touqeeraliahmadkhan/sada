@@ -1,0 +1,86 @@
+.redblue{ 
+display:grid;
+grid-template-columns:1fr 1fr 1fr;
+direction: rtl;
+}
+.heading{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0px 10px 0px;}
+.d1{
+        background-color:rgb(163, 27, 27) ;
+        height: 780px;
+        text-align:center;
+        margin-top:30px;
+        margin-left: 10px;
+        border-radius:20ox;
+        font-family: jameel noori nastaleeq;
+        padding: 10px;
+}
+.d2{
+    background-color: rgb(226, 1, 177) ;
+    height: 780px;
+    text-align:center;
+    margin-top:30px;
+    margin-left: 10px;
+    border-radius:20ox;
+    font-family: jameel noori nastaleeq;
+    padding: 10px;
+
+}
+.d3{
+    background-color: rgb(23, 177, 31) ;
+    height: 780px;
+    text-align:center;
+    margin-top:30px;
+    margin-left: 10px;
+    border-radius:20ox;
+    font-family: jameel noori nastaleeq;
+    padding: 10px;
+}
+.d4{
+    background-color: rgb(78, 13, 231) ;
+    height: 780px;
+    text-align:center;
+    margin-top:30px;
+    margin-left: 10px;
+    border-radius:20ox;
+    font-family: jameel noori nastaleeq;
+    padding: 10px;
+}
+.d5{
+    background-color: rgb(175, 219, 13) ;
+    height: 780px;
+    text-align:center;
+    margin-top:30px;
+    margin-left: 10px;
+    border-radius:20ox;
+    font-family: jameel noori nastaleeq;
+    padding: 10px;
+}
+.d6{
+    background-color: rgb(216, 11, 154) ;
+    height: 780px;
+    text-align:center;
+    margin-top:30px;
+    margin-left: 10px;
+    border-radius:20ox;
+    font-family: jameel noori nastaleeq;
+    padding: 10px;
+}
+.img{
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 30;
+}
+.b{
+    width: 100px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+   
+}
+.b:hover {
+    background-color:greenyellow ;
+}
